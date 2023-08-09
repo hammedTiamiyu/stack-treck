@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .team-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .team-table th, .team-table td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .team-photo {
+            max-width: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        @media (max-width: 600px) {
+            .team-table th, .team-table td {
+                padding: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Team 3</h1>
+    <table class="team-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position/Role</th>
+                <th>Email</th>
+                <th>Phone Number</th>
+                <th>Image</th>
+                <th>GitHub Bio</th>
+                <th>Your Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Repeat the following rows for each team member -->
+            <tr>
+                <td>Hammed Tiamiyu</td>
+                <td>Fullstack Developer</td>
+                <td>hammed@gmail.com</td>
+                <td>+1234567890</td>
+                <td><img src="./hammed_ppot.jpeg" alt="Team Member" class="team-photo"> </td>
+                <td><a href="https://hammedtiamiyu.github.io/stack-treck/" target="_blank">GitHub</a></td>
+                <td>Experienced frontend developer . </td>
+            </tr>
+            <tr>
+                <td>Eze Excel</td>
+                <td>Fullstack Developer & team Jester</td>
+                <td>exceleze45@gmail.com</td>
+                <td>09058103762</td>
+                <td><img src="./hammed_prrpot.jpeg" alt="Team Member" class="team-photo"> </td>
+                <td><a href="https://github.com/Kvngxel" target="_blank">GitHub</a></td>
+                <td>A sports loving developer </td>
+            </tr>
+            <tr>
+                <td>Izebhijie Favour Edith</td>
+                <td>Fullstack Developer </td>
+                <td>izebhijefavouredith@gmail.com</td>
+                <td>08123199433</td>
+                <td><img src="./favour.jpg" alt="Team Member" class="team-photo"> </td>
+                <td><a href="https://ed-favour.github.io/Afried-Training-/" target="_blank">GitHub</a></td>
+                <td>A season developer </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
